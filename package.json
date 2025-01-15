@@ -1,0 +1,14 @@
+{
+  "name": "crud-netlify",
+  "version": "1.0.0",
+  "description": "CRUD básico usando funciones serverless en Netlify",
+  "main": "netlify/functions/crud.js",
+  "scripts": {
+    "start": "node netlify/functions/crud.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "serverless-http": "^3.0.4"
+  }
+}
